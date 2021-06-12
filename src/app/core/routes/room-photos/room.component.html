@@ -1,0 +1,65 @@
+<div class="wrapper">
+    <div class="center">
+      <h3>My room</h3>
+      <div class="button">
+        <svg width="121" height="109" viewBox="0 0 121 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M108.15 42.8958V13.5592C108.15 11.9023 106.807 10.5592 105.15 10.5592H74.4809C73.718 10.5592 72.9838 10.2685 72.4276 9.74641L65.5476 3.28776C64.9914 2.76563 64.2572 2.47501 63.4943 2.47501H46.9657C46.2268 2.47501 45.5139 2.74768 44.9637 3.24077L37.6511 9.7934C37.1008 10.2865 36.3879 10.5592 35.649 10.5592H5.35001C3.69315 10.5592 2.35001 11.9023 2.35001 13.5592V81.125C2.35001 82.7819 3.69315 84.125 5.35 84.125H49.0988" stroke="url(#paint0_linear)" stroke-width="3.5"/>
+          <rect x="18.45" y="26.625" width="5.75" height="5.75" fill="url(#paint1_angular)"/>
+          <circle cx="87.45" cy="74.925" r="31.6" stroke="url(#paint2_angular)" stroke-width="3.5"/>
+          <path d="M51.6491 71.475C48.3844 70.8841 45.3236 69.447 42.7612 67.3019C40.1987 65.1568 38.2208 62.3757 37.0175 59.2262C35.8143 56.0766 35.4261 52.6645 35.8905 49.3178C36.3548 45.9712 37.6559 42.8026 39.6688 40.1167C41.6817 37.4307 44.3387 35.3179 47.3842 33.9812C50.4297 32.6445 53.7614 32.1289 57.0589 32.4841C60.3563 32.8392 63.5087 34.0531 66.2129 36.0091C68.9172 37.9651 71.0822 40.5973 72.5 43.6527" stroke="url(#paint3_angular)" stroke-width="3.5"/>
+          <path d="M86.3 58.825L86.3 92.175" stroke="url(#paint4_linear)" stroke-width="3.5"/>
+          <path d="M104.7 74.925H70.2" stroke="url(#paint5_linear)" stroke-width="3.5"/>
+          <defs>
+            <linearGradient id="paint0_linear" x1="55.25" y1="10.5592" x2="55.25" y2="84.125" gradientUnits="userSpaceOnUse">
+              <stop offset="0.0364583" stop-color="#B9BFFC"/>
+              <stop offset="0.484375" stop-color="#E2BDFF"/>
+              <stop offset="0.739583" stop-color="#D6BDFF"/>
+              <stop offset="0.989583" stop-color="#E6C3FC"/>
+            </linearGradient>
+            <radialGradient id="paint1_angular" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(21.325 29.5) rotate(90) scale(2.875)">
+              <stop stop-color="#C7CCFF"/>
+              <stop offset="0.510417" stop-color="#F0D1FF"/>
+              <stop offset="0.932292" stop-color="white"/>
+            </radialGradient>
+            <radialGradient id="paint2_angular" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(87.45 74.925) rotate(160.168) scale(26.3733)">
+              <stop stop-color="#BA97F3"/>
+              <stop offset="0.34375" stop-color="#D6ADFF"/>
+              <stop offset="0.703125" stop-color="#CBD6FF"/>
+            </radialGradient>
+            <radialGradient id="paint3_angular" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(55.028 52.0767) rotate(159.815) scale(15.3189 15.5453)">
+              <stop stop-color="#DBC5FF"/>
+              <stop offset="0.34375" stop-color="#E1C4FF"/>
+              <stop offset="0.703125" stop-color="#B9C6F5"/>
+            </radialGradient>
+            <linearGradient id="paint4_linear" x1="-4.89258e+12" y1="-211691" x2="-4.89258e+12" y2="-211710" gradientUnits="userSpaceOnUse">
+              <stop offset="0.119792" stop-color="#A4B6F8"/>
+              <stop offset="0.984375" stop-color="#EBC1FF"/>
+            </linearGradient>
+            <linearGradient id="paint5_linear" x1="69.2327" y1="-2.62752e+13" x2="88.0193" y2="-2.62752e+13" gradientUnits="userSpaceOnUse">
+              <stop offset="0.119792" stop-color="#A4B6F8"/>
+              <stop offset="0.984375" stop-color="#EBC1FF"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="button-exm">
+        <img src="assets/room/example.png" alt="example">
+        <div class="button-inner">
+          <h5>Table</h5>
+          <span>Main colors:</span>
+          <div class="colors">
+            <img src="assets/room/example_colors.png" height="24" alt="colors">
+          </div>
+          <span>Style:</span><br>
+          <span>Loft, classic</span>
+        </div>
+        <span>
+          <img src="assets/room/trash.png" alt="trash">
+        </span>
+      </div>
+      <button [routerLink]="['/filter']" class="next-step">
+        Next Step
+      </button>
+    </div>
+  <app-advices [inner_instruction]="inner_instruction"></app-advices>
+</div>

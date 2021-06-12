@@ -1,0 +1,60 @@
+.wrapper{
+  position: absolute;
+  left: 0; top: 0;
+  /*width: 375px;*/
+  /*height: 667px;*/
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../../../../assets/landing/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  font-family: 'Alata', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+  color: #fff;
+}
+.wrapper > .center{
+  margin-top: 48.94%;
+
+  height: 39.1%;
+  width: 100%;
+
+  text-align: center;
+}
+.wrapper > .center > h3 {
+  font-size: 35px;
+  line-height: 48px;
+}
+.wrapper > .center > h6{
+  font-size: 24px;
+  line-height: 33px;
+}
+.wrapper > .center > button{
+  margin-top: 4.51%;
+  margin-bottom: 1.2%;
+
+  box-sizing: border-box;
+
+  width: 60.27%;
+
+  color: #fff;
+  font-family: 'Alata', sans-serif;
+  font-size: 22px;
+  line-height: 47px;
+
+  background: rgba(255, 255, 255, 0.23);
+
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  border-radius: 15px;
+}
+.wrapper > .center > p{
+  font-size: 20px;
+  line-height: 28px;
+
+  margin-left: 9.6%;
+  margin-right: 9.6%;
+}

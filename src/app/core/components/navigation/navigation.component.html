@@ -1,0 +1,27 @@
+<div class="navigation row">
+  <span>
+    <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="18.5" cy="18.5" r="17.75" fill="#C6C7FF" stroke="white" stroke-width="1.5"/>
+<line x1="6.16675" y1="11.5833" x2="30.8334" y2="11.5833" stroke="white" stroke-width="1.5"/>
+<line x1="6.16675" y1="20.2167" x2="30.8334" y2="20.2167" stroke="white" stroke-width="1.5"/>
+<line x1="6.16675" y1="27.6167" x2="30.8334" y2="27.6167" stroke="white" stroke-width="1.5"/>
+</svg>
+  </span>
+  <span [routerLink]='["/favorites"]' *ngIf="!isFavorites">
+    <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="19.5" cy="19.5" r="17.75" fill="#C6C7FF" stroke="white" stroke-width="1.5"/>
+<rect width="39" height="39" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="scale(0.01)"/>
+</pattern>
+<image id="image0" width="100" height="100" xlink:href="data:image/png;base64,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ypnZCC59J989dG8yBnzZVwzImLloZluBu7J61cN838yeynJA5mKWcrOU24APZz22x3gG+EiW3gH5Cyn34QopvznP8T3Ay7hCypnrqORKtk5G8MtxZbUbTmQE+HQeMaBA9ruZDQBXk606T7czBnzOzHKv3i20HMHMNgHXF7HRZawys18UMVB4fYiZ/QjPiptdzs1mdm9RI8FKhstli9xH771LRMCNZvbDEMaC1nCXtAx4hPjrKurCCHB1cukOQvCi+pIuBX5O97/O4kXgM0V+wNOI9WLJPpwoi2PYrwF/xL1YMvjSjSjX+2SccjHux76bbouFexvd4hhilIKkiyTtKPvhdQT+Lil7NdE6ouOv764yGzIvr8q9ZLmOTyGLIelsufKzo5WG2I8RST+VK7fe3UiaI/ca7CrWoXRiWNIGSe+qOk6lI5f3daukvZVK4BiUtEYd8qZ6ArnSrBdJWidXZLgsDsoldF8olzpbObV725rcAtBFuLIW/bgHYScHMn8U92KzLcnnt8mj6dpQO0EmInd3swBXenB+8pmLKyN1GscL7INLtzmIq5AwBOzBLazcjUv221U3ARoaGhoaGkLxP8EPXUMuK3ZCAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
+  </span>
+  <span [routerLink]='["/"]' class="favor" *ngIf="isFavorites">
+    <button>
+      Back
+    </button>
+  </span>
+</div>

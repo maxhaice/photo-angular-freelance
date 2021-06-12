@@ -1,0 +1,123 @@
+.wrapper{
+  overflow: auto;
+  position: absolute;
+  left: 0; top: 0;
+  /*width: 375px;*/
+  /*height: 667px;*/
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(180deg, #717FFF 0%, #9860C4 79.12%);
+
+  font-family: 'Alata', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+  color: #fff;
+
+  text-align: center;
+
+}
+.wrapper>h2{
+  margin-top: 2%;
+}
+.wrapper > .buttons{
+  margin-top: 9%;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 13px;
+}
+.wrapper > .buttons > .big-but{
+  height: 33px;
+  font-family: Alata, sans-serif;
+  font-size: 18px;
+  color: rgba(82, 83, 223, 1);
+
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  border: none;
+  box-sizing: border-box;
+  border-radius: 15px;
+
+}
+.wrapper > .cards{
+  margin-top:6%;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 1%;
+}
+.wrapper > .cards > .card{
+  height: 302px;
+  background: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.94);
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 60% 35%;
+  grid-gap: 5%;
+}
+.wrapper > .cards > .card > .info{
+  margin-top: 1%;
+
+  display: grid;
+  grid-template-columns: 45% 35% 10%;
+  grid-gap: 3%;
+  font-family: Alata, sans-serif;
+  color: black;
+  text-align: left;
+}
+.wrapper > .cards > .card > .info > h3{
+  font-size: 19px;
+}
+.wrapper > .cards > .card > .info > h4{
+  font-size: 18px;
+}
+.wrapper > .cards > .card > .info > span{
+  font-size: 16px;
+}
+.wrapper > .cards > .card > .info > img{
+  justify-self: center;
+  align-self: center;
+}
+.wrapper > .cards > .card > .info > span > img{
+  width: 47px;
+  height: 39px;
+}
+.wrapper > .cards > .card > .navig{
+  display: grid;
+  grid-auto-flow: row;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
+}
+.wrapper > .cards > .card > .navig > .orange{
+  height: 38px;
+  background: rgba(68, 40, 255, 0.81);
+
+  font-family: Alata, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+
+  border: none;
+  border-radius: 20px;
+}
+.wrapper > .cards > .card > .navig > .white{
+  height: 38px;
+  background: transparent;
+
+  font-family: Alata, sans-serif;
+  font-size: 16px;
+  color: rgba(120, 121, 244, 0.8);
+
+  border: 3px solid rgba(120, 121, 244, 0.8);;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
