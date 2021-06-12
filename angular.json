@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "image-wrapper": {
+    "photo-angular-freelance": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/image-wrapper",
+            "outputPath": "dist/photo-angular-freelance",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "image-wrapper:build:production"
+              "browserTarget": "photo-angular-freelance:build:production"
             },
             "development": {
-              "browserTarget": "image-wrapper:build:development"
+              "browserTarget": "photo-angular-freelance:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "image-wrapper:build"
+            "browserTarget": "photo-angular-freelance:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "image-wrapper"
+  "defaultProject": "photo-angular-freelance"
 }
